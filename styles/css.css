@@ -74,6 +74,7 @@ body {
     width: 1320px;
     height: 600px;
     margin: auto;
+    display: flex;
 }
 
 .welcome {
@@ -108,5 +109,8 @@ body {
     padding-left: 158px;
     padding-top: 48px;
 }
-
+.img2024{
+    padding-top: 76px;
+    padding-right: 110px;
+}
 /* footer releted styles */
