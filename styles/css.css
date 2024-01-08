@@ -12,7 +12,6 @@ body {
 /* header releted styles */
 .new-year-title {
     background-image: url('../resources/Banner\ Image.png');
-
     background-position: center;
     font-family: Merriweather;
     margin: auto;
@@ -79,7 +78,7 @@ body {
 
 /* welcome mid-night releted styles  */
 .night-party-div {
-    background-image: url('/resources/Vectorrr.png');
+    background-image: url(../resources/Vectorrr.png);
     width: 1320px;
     height: 600px;
     margin: auto;
