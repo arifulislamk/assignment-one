@@ -398,5 +398,59 @@ body {
     background: #F00;
 }
 
-
 /* footer releted styles */
+footer {
+    background-color: #070211;
+    margin: 0px;
+}
+
+.address {
+    color: #FFF;
+    width: 375px;
+    height: 80px;
+    padding-left: 140px;
+    padding-top: 120px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.number,
+.web-link , .copy,
+.sub-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.number {
+    padding-right: 275px;
+    padding-top: 120px;
+}
+.web-link {
+    padding-right: 275px;
+}
+.copy{
+    padding-bottom: 120px;
+    padding-left: 140px ;
+}
+.sub-text{
+    padding-right: 275px;
+    padding-bottom: 120px;
+}
+.address-num-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-link {
+    text-align: center;
+}
+
+
+.all-reserved-contant{
+    display: flex;
+    justify-content: space-between;
+}
