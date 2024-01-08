@@ -2,8 +2,9 @@
 body {
     font-family: 'Merriweather', serif;
     font-family: 'Inter', sans-serif;
-    margin: 0px 140px;
+    /* margin: 0px 140px; */
 }
+
 /* h2{
     font-family: Merriweather;
 } */
@@ -274,12 +275,25 @@ body {
     font-weight: 500;
     line-height: 32px;
 }
-.holiday-all-img{
+
+.holiday-all-img {
     display: flex;
-    justify-content:space-evenly;
-}
-.frist-img{
-    margin-top: 100px;
+    justify-content: space-evenly;
+    background-image: url(../resources/Rectangle\ 2.png);
+    background-position: bottom;
+    width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+    border-radius: 16px 0px 16px 16px;
 }
 
+.frist-img {
+    margin-top: 100px;
+    margin-left: 126px;
+    margin-right: 0px;
+}
+
+/* .seond-img{
+    padding-left: 100px;
+} */
 /* footer releted styles */
