@@ -4,6 +4,9 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0px 140px;
 }
+/* h2{
+    font-family: Merriweather;
+} */
 
 
 /* header releted styles */
@@ -11,6 +14,7 @@ body {
     background-image: url('../resources/Banner\ Image.png');
 
     background-position: center;
+    font-family: Merriweather;
     margin: auto;
     width: 1320px;
     height: 600px;
@@ -19,6 +23,7 @@ body {
 .happy-year {
     color: #fff;
     text-align: center;
+    font-family: Merriweather;
     font-size: 32px;
     width: 265px;
     height: 40px;
@@ -86,6 +91,7 @@ body {
     font-size: 64px;
     font-weight: 900;
     letter-spacing: 7.04px;
+    font-family: Merriweather;
     width: 642px;
     text-align: left;
     padding-top: 70px;
@@ -158,13 +164,14 @@ body {
 .offer-full-view {
     display: flex;
     justify-content: space-around;
-    background-color: #5d23d3;
+    background-color: #fff;
     width: 1320px;
     height: 482px;
 
 
 }
-.offer-container{
+
+.offer-container {
     margin-left: 0px;
 }
 
@@ -178,6 +185,7 @@ body {
 .coming {
     color: #070211;
     font-size: 48px;
+    font-family: Merriweather;
     font-weight: 900;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -213,7 +221,8 @@ body {
     border-radius: 50px;
 
 }
-.offer-last-contant{
+
+.offer-last-contant {
     margin-left: 20px;
 }
 
@@ -231,6 +240,47 @@ body {
     line-height: 32px;
     width: 276px;
     margin-top: 0px;
+}
+
+/* holidays sale 50 ful div releted styles */
+.whattitle {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.holiday-title {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    font-family: Merriweather;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.holidaysspan {
+    color: #F00;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.holi-paragrap {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.holiday-all-img{
+    display: flex;
+    justify-content:space-evenly;
+}
+.frist-img{
+    margin-top: 100px;
 }
 
 /* footer releted styles */
