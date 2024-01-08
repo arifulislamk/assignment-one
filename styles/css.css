@@ -341,5 +341,62 @@ body {
     gap: 10px;
 }
 
+/* last main div subscribe button releted styles */
+.last-maindiv-subscribe {
+    text-align: center;
+    width: 1320px;
+    height: 616px;
+    border: 1px solid black;
+    background: rgba(255, 0, 0, 0.05);
+    margin: auto;
+
+}
+
+.email-img {
+    padding-top: 80px;
+    margin-bottom: 0px;
+}
+
+.sub-news {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.text-last {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    width: 896px;
+    text-align: center;
+    padding-left: 212px;
+    margin-top: 0px;
+
+}
+
+.input {
+    width: 400px;
+    height: 70px;
+    background: #FFF;
+    margin-bottom: 80px;
+}
+
+.button-last {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    margin-bottom: 80px;
+    font-size: 20px;
+    width: 210px;
+    height: 74px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+
 
 /* footer releted styles */
