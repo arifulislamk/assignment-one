@@ -167,13 +167,14 @@ body {
     background-color: #fff;
     width: 1320px;
     height: 482px;
+    margin-left: 140px;
 
 
 }
 
-.offer-container {
+/* .offer-container {
     margin-left: 0px;
-}
+} */
 
 .best-offer {
     color: #F00;
@@ -242,7 +243,7 @@ body {
     margin-top: 0px;
 }
 
-/* holidays sale 50 ful div releted styles */
+/* holidays sale 50 ful div releted styles and image */
 .whattitle {
     color: #070211;
     font-size: 24px;
@@ -276,6 +277,13 @@ body {
     line-height: 32px;
 }
 
+.holi-image-full-viwe {
+    width: 1600px;
+    height: 1200px;
+    background: #FFF;
+    margin: 0px 126px;
+}
+
 .holiday-all-img {
     display: flex;
     justify-content: space-evenly;
@@ -293,7 +301,45 @@ body {
     margin-right: 0px;
 }
 
-/* .seond-img{
-    padding-left: 100px;
-} */
+
+/* awesome portfolio and img1-8 styles */
+.siximg-awesome-full-viwe {
+    margin: 0px 140px;
+}
+
+.best-gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.awesome-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.discripti {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+    width: 896px;
+}
+
+.three-img-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
+}
+
+
 /* footer releted styles */
