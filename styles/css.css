@@ -9,6 +9,7 @@ body {
 /* header releted styles */
 .new-year-title {
     background-image: url('../resources/Banner\ Image.png');
+
     background-position: center;
     margin: auto;
     width: 1320px;
@@ -84,17 +85,17 @@ body {
     color: #FFF;
     font-size: 64px;
     font-weight: 900;
-    line-height: 88px;
     letter-spacing: 7.04px;
     width: 642px;
     text-align: left;
-    padding-top: 126px;
+    padding-top: 70px;
     padding-left: 126px;
+    margin-bottom: 24px;
 }
 
 .discrip {
-    padding-top: 24px;
     padding-left: 126px;
+    margin-bottom: 30px;
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
     font-weight: 400;
@@ -151,6 +152,85 @@ body {
     margin: 0px 608px 126px 609px;
     height: 56px;
     width: 167px;
+}
+
+/* best offer releted css */
+.offer-full-view {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5d23d3;
+    width: 1320px;
+    height: 482px;
+
+
+}
+.offer-container{
+    margin-left: 0px;
+}
+
+.best-offer {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 70px;
+}
+
+.coming {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.left-paragrap {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    width: 393px;
+}
+
+.outer-border {
+
+    border-radius: 463px;
+    border: 15px solid #F00;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.inner-border {
+    border-radius: 463px;
+    border: 40px solid #fff;
+}
+
+.img-ellipse {
+    width: 363px;
+    height: auto;
+    border-radius: 50px;
+
+}
+.offer-last-contant{
+    margin-left: 20px;
+}
+
+.y2024 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.right-paragrap {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+    margin-top: 0px;
 }
 
 /* footer releted styles */
