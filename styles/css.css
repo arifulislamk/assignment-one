@@ -168,9 +168,11 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: #fff;
-    width: 1320px;
-    height: 482px;
+    /* width: 1320px;
+    height: 482px; */
+    margin: auto;
     margin-left: 140px;
+    margin-top: 120px;
 
 
 }
@@ -202,7 +204,11 @@ body {
     font-weight: 400;
     width: 393px;
 }
-
+/* .holiday-all-img{ */
+    /* margin: 0px 500px; */
+    /* padding-left: 1200px;
+    margin-right: 500px; */
+/* } */
 .outer-border {
 
     border-radius: 463px;
@@ -235,6 +241,7 @@ body {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 0px;
+    margin-right: 400px;
 }
 
 .right-paragrap {
@@ -247,12 +254,24 @@ body {
 }
 
 /* holidays sale 50 ful div releted styles and image */
-.whattitle {
+.holi-image-full-viwe {
+    width: 1600px;
+    height: 1200px;
+    /* background: #FFF; */
+    margin: 0px auto;
+}
+.holi-top-scontant{
+    margin: auto;
+
+}
+.whattitle{
     color: #070211;
     font-size: 24px;
     font-weight: 500;
-    text-align: center;
-    margin-bottom: 0px;
+    margin-top: 120px;
+    margin-left: 500px;
+    width: 263px;
+    height: 29px;
 }
 
 .holiday-title {
@@ -260,9 +279,9 @@ body {
     font-size: 72px;
     font-weight: 900;
     font-family: Merriweather;
-    text-align: center;
     margin-top: 0px;
     margin-bottom: 24px;
+    margin-left: 300px;
 }
 
 .holidaysspan {
@@ -275,33 +294,33 @@ body {
 .holi-paragrap {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
+    width: 1068px;
+    /* height: 9px; */
+    padding: 0px 20px;
+    margin-left: 100px;
+    margin-right: 300px;
+    /* background-color: blue; */
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
 }
 
-.holi-image-full-viwe {
-    width: 1600px;
-    height: 1200px;
-    background: #FFF;
-    margin: 0px 126px;
-}
 
-.holiday-all-img {
-    display: flex;
-    justify-content: space-evenly;
-    background-image: url(../resources/Rectangle\ 2.png);
-    background-position: bottom;
-    width: 1320px;
-    height: 229px;
-    flex-shrink: 0;
-    border-radius: 16px 0px 16px 16px;
-}
 
-.frist-img {
-    margin-top: 100px;
-    margin-left: 126px;
-    margin-right: 0px;
+.image-full-viwe{
+    background: #F00;
+    background-image: url(../resources/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: 1400px;
+    /* display: inline-block; */
+    height: 600px;
+    margin-top: 120px;
+  
+}
+.parcent-img{
+    margin-top: 0px;
+    position: absolute;
 }
 
 
