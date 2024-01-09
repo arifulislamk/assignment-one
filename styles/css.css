@@ -123,6 +123,10 @@ body {
     padding-top: 48px;
 }
 
+.join:hover {
+    color: red;
+}
+
 .img2024 {
     padding-top: 76px;
     padding-right: 110px;
@@ -512,6 +516,14 @@ footer {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.social-link:hover,
+.facebook:hover,
+.instagram:hover,
+.twiter:hover,
+.linkdin:hover {
+    border: 5px solid rgb(58, 122, 162);
 }
 
 .all-reserved-contant {
