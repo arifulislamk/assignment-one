@@ -163,6 +163,11 @@ body {
     width: 167px;
 }
 
+.btn-join:hover {
+    background-color: white;
+    color: black;
+}
+
 /* best offer releted css */
 .offer-full-view {
     display: flex;
@@ -204,9 +209,10 @@ body {
     font-weight: 400;
     width: 393px;
 }
+
 /* .holiday-all-img{ */
-    /* margin: 0px 500px; */
-    /* padding-left: 1200px;
+/* margin: 0px 500px; */
+/* padding-left: 1200px;
     margin-right: 500px; */
 /* } */
 .outer-border {
@@ -260,11 +266,13 @@ body {
     /* background: #FFF; */
     margin: 0px auto;
 }
-.holi-top-scontant{
+
+.holi-top-scontant {
     margin: auto;
 
 }
-.whattitle{
+
+.whattitle {
     color: #070211;
     font-size: 24px;
     font-weight: 500;
@@ -307,7 +315,7 @@ body {
 
 
 
-.image-full-viwe{
+.image-full-viwe {
     background: #F00;
     background-image: url(../resources/Rectangle\ 1.png);
     background-repeat: no-repeat;
@@ -316,9 +324,10 @@ body {
     /* display: inline-block; */
     height: 600px;
     margin-top: 120px;
-  
+
 }
-.parcent-img{
+
+.parcent-img {
     margin-top: 0px;
     position: absolute;
 }
@@ -363,6 +372,16 @@ body {
     gap: 10px;
 }
 
+.img3 :hover,
+.img4 :hover,
+.img5 :hover,
+.img6 :hover,
+.img7 :hover,
+.img8 :hover {
+    background-color: #F00;
+    border: 5px solid rgb(25, 1, 1);
+}
+
 /* last main div subscribe button releted styles */
 .last-maindiv-subscribe {
     text-align: center;
@@ -400,8 +419,8 @@ body {
 }
 
 .input {
-    width: 400px;
-    height: 70px;
+    width: 300px;
+    height: 50px;
     background: #FFF;
     margin-bottom: 80px;
 }
@@ -412,12 +431,17 @@ body {
     font-family: Inter;
     margin-bottom: 80px;
     font-size: 20px;
-    width: 210px;
-    height: 74px;
+    width: 160px;
+    height: 50px;
     font-weight: 600;
     line-height: normal;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+}
+
+.button-last:hover {
+    background-color: antiquewhite;
+    color: black;
 }
 
 /* footer releted styles */
@@ -458,6 +482,11 @@ footer {
     padding-right: 275px;
 }
 
+.web-link:hover {
+    background-color: antiquewhite;
+    color: #F00;
+}
+
 .copy {
     padding-bottom: 120px;
     padding-left: 140px;
@@ -466,6 +495,10 @@ footer {
 .sub-text {
     padding-right: 275px;
     padding-bottom: 120px;
+}
+
+.sub-text:hover {
+    color: red;
 }
 
 .address-num-link {
@@ -479,7 +512,6 @@ footer {
     justify-content: center;
     gap: 20px;
 }
-
 
 .all-reserved-contant {
     display: flex;
