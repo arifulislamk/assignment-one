@@ -324,18 +324,23 @@ body {
     background-image: url(../resources/Rectangle\ 1.png);
     background-repeat: no-repeat;
     background-position: right top;
-    width: 1400px;
+    width: 1200px;
     /* display: inline-block; */
     height: 600px;
     margin-top: 120px;
+    margin-left: 100px;
 
 }
 
 .parcent-img {
     margin-top: 0px;
-    position: absolute;
+    margin: auto;
+    margin-top: -500px;
+  
 }
-
+.box-img{
+    margin: auto;
+}
 
 /* awesome portfolio and img1-8 styles */
 .siximg-awesome-full-viwe {
